@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tribunal Tupiniquim</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chivo+Mono&family=Montserrat&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="https://cdn.pixabay.com/photo/2014/03/24/13/40/courthouse-293963_960_720.png" type="image/x-icon">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4 cabecalho" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 section-title">Tribunal Tupiniquim</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="#sobre">
+                            <i class="bi bi-bank2 me-1"></i>
+                            Sobre o Tribunal</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="#servicos">
+                            <i class="bi bi-vector-pen me-1"></i>
+                            Serviços</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="#turmas">
+                            <i class="bi bi-people-fill me-1"></i>
+                            Nossas Turmas</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="#fale-conosco">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Contato</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div data-bs-spy="scroll" data-bs-target="#cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner carrossel">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2017/08/06/22/24/justitia-2597016_960_720.jpg" alt="foto da deusa romana da justiça">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2017/06/30/13/31/palace-of-justice-2458253_960_720.jpg" alt="parte interna do tribunal">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2021/11/14/18/30/auditorium-6795423_960_720.jpg" alt="sala de audiências">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+    
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="https://cdn.pixabay.com/photo/2021/09/01/15/06/federal-administrative-court-6591618_960_720.jpg" alt="foto da fachada do tribunal" class="d-block w-100 rounded">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="section-title">Sobre <span class="text-colored">o Tribunal</span></h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi quos alias eos, minima exercitationem sed blanditiis sit. Amet veritatis dolorem nisi voluptatem voluptates? Deserunt ullam totam quaerat saepe quos id!</p>
+                            <h3 class="section-title">Sobre <span class="text-colored">nossas instalações</span></h3>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae, optio. Perspiciatis, aliquam deserunt error quos quae magni praesentium non cumque! Rerum provident soluta nisi, obcaecati eius quae corrupti dignissimos dolore.
+                            </p>
+                            <ul>
+                                <li>Item 1</li>
+                                <li>Item 2</li>
+                                <li>Item 3</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="servicos" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Serviços </h2>
+                    <h4 class="text-center fw-bold">Servir bem para <span class="text-colored">servir sempre</span></h4>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4 serviços">
+                        <img src="https://cdn.pixabay.com/photo/2019/11/11/10/05/law-4617873_960_720.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <a class="section-title text-colored fs-4">
+                            <i class="bi bi-calendar-fill"></i>
+                            Sessões de julgamento
+                        </a>
+                        <p class="mt-3">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Est in consequuntur, eum, ipsam minus molestiae cumque laborum suscipit aut, unde voluptates tempore praesentium nesciunt facere reiciendis. Laudantium reprehenderit iusto earum.
+                        </p>
+                    </div>
+                    <div class="col-md-4 serviços">
+                        <img src="https://cdn.pixabay.com/photo/2016/03/26/22/21/books-1281581_960_720.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <a class="section-title text-colored fs-4">
+                            <i class="bi bi-book-fill"></i>
+                            Jurisprudência
+                        </a>
+                        <p class="mt-3">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Est in consequuntur, eum, ipsam minus molestiae cumque laborum suscipit aut, unde voluptates tempore praesentium nesciunt facere reiciendis. Laudantium reprehenderit iusto earum.
+                        </p>
+                    </div>
+                    <div class="col-md-4 serviços">
+                        <img src="https://cdn.pixabay.com/photo/2019/02/10/19/30/newspaper-3988054_960_720.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <a class="section-title text-colored fs-4">
+                            <i class="bi bi-newspaper"></i>
+                            Notícias
+                        </a>
+                        <p class="mt-3">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Est in consequuntur, eum, ipsam minus molestiae cumque laborum suscipit aut, unde voluptates tempore praesentium nesciunt facere reiciendis. Laudantium reprehenderit iusto earum.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="turmas" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5">Nossas <span class="text-colored">Turmas</span></h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-turmas">
+                            <button data-bs-toggle="tab" data-bs-target="#turmacivel1" type="button" class="fw-bold text-start text-colored nav-link text active">1ª Turma Cível</button>
+                            <button data-bs-toggle="tab" data-bs-target="#turmacivel2" type="button" class="fw-bold text-start text-colored nav-link text">2ª Turma Cível</button>
+                            <button data-bs-toggle="tab" data-bs-target="#turmacriminal1" type="button" class="fw-bold text-start text-colored nav-link text">1ª Turma Criminal</button>
+                            <button data-bs-toggle="tab" data-bs-target="#turmacriminal2" type="button" class="fw-bold text-start text-colored nav-link text">2ª Turma Criminal</button>
+                            <button data-bs-toggle="tab" data-bs-target="#turmarecursal" type="button" class="fw-bold text-start text-colored nav-link text">Turma Recursal</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="turmacivel1">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2017/10/05/20/49/office-2820890_960_720.jpg" alt="foto do desembargador">
+                                        <h5 class="text-colored fw-bold mt-2">Desembargador Celso da Rocha</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2017/09/21/19/06/woman-2773007_960_720.jpg" alt="foto da desembargadora">
+                                        <h5 class="text-colored fw-bold mt-2">Desembargadora Aline Ferrarini</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2020/03/18/15/44/right-4944554_960_720.jpg" alt="foto do desembargador">
+                                        <h5 class="text-colored fw-bold mt-2">Desembargador Olivio Santos</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2019/12/18/13/06/right-4703930_960_720.jpg" alt="foto do desembargador">
+                                        <h5 class="text-colored fw-bold mt-2">Desembargador Ruy Sanserverino</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2019/12/18/13/08/right-4703944_960_720.jpg" alt="foto da desembargadora">
+                                        <h5 class="text-colored fw-bold mt-2">Desembargadora Marta Merovíngia</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2019/12/18/13/07/right-4703938_960_720.jpg" alt="foto do desembargador">
+                                        <h5 class="text-colored fw-bold mt-2">Desembargador Odenir Barbosa</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="turmacivel2">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2019/12/18/13/07/right-4703938_960_720.jpg" alt="foto do desembargador">
+                                        <h5 class="text-colored fw-bold mt-2">Desembargador Odenir Barbosa</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2017/10/05/20/49/office-2820890_960_720.jpg" alt="foto do desembargador">
+                                        <h5 class="text-colored fw-bold mt-2">Desembargador Celso da Rocha</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2019/12/18/13/08/right-4703944_960_720.jpg" alt="foto da desembargadora">
+                                        <h5 class="text-colored fw-bold mt-2">Desembargadora Marta Merovíngia</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2020/03/18/15/44/right-4944554_960_720.jpg" alt="foto do desembargador">
+                                        <h5 class="text-colored fw-bold mt-2">Desembargador Olivio Santos</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2019/12/18/13/06/right-4703930_960_720.jpg" alt="foto do desembargador">
+                                        <h5 class="text-colored fw-bold mt-2">Desembargador Ruy Sanserverino</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2017/09/21/19/06/woman-2773007_960_720.jpg" alt="foto da desembargadora">
+                                        <h5 class="text-colored fw-bold mt-2">Desembargadora Aline Ferrarini</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane" id="turmacriminal1">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2020/03/18/15/44/right-4944554_960_720.jpg" alt="foto do desembargador">
+                                        <h5 class="text-colored fw-bold mt-2">Desembargador Olivio Santos</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2017/09/21/19/06/woman-2773007_960_720.jpg" alt="foto da desembargadora">
+                                        <h5 class="text-colored fw-bold mt-2">Desembargadora Aline Ferrarini</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2019/12/18/13/07/right-4703938_960_720.jpg" alt="foto do desembargador">
+                                        <h5 class="text-colored fw-bold mt-2">Desembargador Odenir Barbosa</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2019/12/18/13/08/right-4703944_960_720.jpg" alt="foto da desembargadora">
+                                        <h5 class="text-colored fw-bold mt-2">Desembargadora Marta Merovíngia</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2019/12/18/13/06/right-4703930_960_720.jpg" alt="foto do desembargador">
+                                        <h5 class="text-colored fw-bold mt-2">Desembargador Ruy Sanserverino</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2017/10/05/20/49/office-2820890_960_720.jpg" alt="foto do desembargador">
+                                        <h5 class="text-colored fw-bold mt-2">Desembargador Celso da Rocha</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane" id="turmacriminal2">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2019/12/18/13/08/right-4703944_960_720.jpg" alt="foto da desembargadora">
+                                        <h5 class="text-colored fw-bold mt-2">Desembargadora Marta Merovíngia</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2017/09/21/19/06/woman-2773007_960_720.jpg" alt="foto da desembargadora">
+                                        <h5 class="text-colored fw-bold mt-2">Desembargadora Aline Ferrarini</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2018/01/10/08/12/woman-3073289_960_720.jpg" alt="foto da desembargadora">
+                                        <h5 class="text-colored fw-bold mt-2">Desembargadora Olga Mendes</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2022/06/01/19/49/attorney-7236482_960_720.jpg" alt="foto da desembargadora">
+                                        <h5 class="text-colored fw-bold mt-2">Desembargadora Sara Weber</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2015/11/28/21/44/business-1067978_960_720.jpg" alt="foto da desembargadora">
+                                        <h5 class="text-colored fw-bold mt-2">Desembargadora Karina Rett</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2017/04/03/17/42/secretary-2199013_960_720.jpg" alt="foto da desembargadora">
+                                        <h5 class="text-colored fw-bold mt-2">Desembargadora Amanda Pataluch</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane" id="turmarecursal">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2017/04/03/17/42/secretary-2199013_960_720.jpg" alt="foto da desembargadora">
+                                        <h5 class="text-colored fw-bold mt-2">Desembargadora Amanda Pataluch</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2017/10/05/20/49/office-2820890_960_720.jpg" alt="foto do desembargador">
+                                        <h5 class="text-colored fw-bold mt-2">Desembargador Celso da Rocha</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2015/11/28/21/44/business-1067978_960_720.jpg" alt="foto da desembargadora">
+                                        <h5 class="text-colored fw-bold mt-2">Desembargadora Karina Rett</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2022/06/01/19/49/attorney-7236482_960_720.jpg" alt="foto da desembargadora">
+                                        <h5 class="text-colored fw-bold mt-2">Desembargadora Sara Weber</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2019/12/18/13/06/right-4703930_960_720.jpg" alt="foto do desembargador">
+                                        <h5 class="text-colored fw-bold mt-2">Desembargador Ruy Sanserverino</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2018/01/10/08/12/woman-3073289_960_720.jpg" alt="foto da desembargadora">
+                                        <h5 class="text-colored fw-bold mt-2">Desembargadora Olga Mendes</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                </section>
+                <section id="fale-conosco" class="pt-5 pb-5">
+                    <div class="container">
+                        <div class="row">
+                            <h2 class="section-title text-center mb-5">Fale <span class="text-colored">conosco</span></h2>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-7 mb-5">
+                                <form name="form">
+                                    <div class="mb-3">
+                                        <label class="form-label fw-bold text-colored" for="nome">Seu nome</label>
+                                        <input type="text" id="nome" class="form-control" required name="nome">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label class="form-label fw-bold text-colored" for="email">Seu email</label>
+                                        <input type="email" id="email" class="form-control" required name="email">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label class="form-label fw-bold text-colored" for="telefone">Seu telefone (opcional)</label>
+                                        <input type="tel" id="telefone" class="form-control" name="telefone" name="telefone">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label class="form-label fw-bold text-colored" for="mensagem">Sua mensagem</label>
+                                        <textarea id="mensagem" class="form-control" required name="mensagem"></textarea>
+                                    </div>
+                                    <button type="submit" class="btn fw-bold">Enviar</button>
+                                </form>
+                            </div>
+                            <div class="col-md-5">
+                                <div class="row">
+                                    <h3 class="section-title fs-4 text-colored">
+                                        <i class="bi bi-chat-square-dots-fill"></i>
+                                        Redes sociais
+                                    </h3>
+                                    <ul class="social-links">
+                                        <li class="fs-5">
+                                            <a href="#">
+                                                <i class="bi bi-facebook text-colored"></i>
+                                            </a>
+                                        </li>
+                                        <li class="fs-5 ms-1 me-1">
+                                            <a href="#">
+                                                <i class="bi bi-instagram text-colored"></i>
+                                            </a>
+                                        </li>
+                                        <li class="fs-5">
+                                            <a href="#">
+                                                <i class="bi bi-whatsapp text-colored"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="row mt-4 ">
+                                    <h3 class="section-title fs-4 text-colored">
+                                        <i class="bi bi-cursor-fill"></i>
+                                        Endereço
+                                    </h3>
+                                    <p>
+                                        Nome da Rua, 00, Bairro, Cidade - Estado
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+
+
+    <script src="./js/jquery.mask.min.js"></script>
+    <script src="./js/jquery.validate.min.js"></script>
+    <script src="./js/messages_pt_BR.min.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

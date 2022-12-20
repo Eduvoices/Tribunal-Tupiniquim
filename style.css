@@ -1,0 +1,93 @@
+.navbar {
+    background-color: #5f3106;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #c9b4a0;
+    color: #fff;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-turmas .nav-link.active:hover {
+    color: #fff;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.navbar-toggler {
+    background-color: #c9b4a0;
+}
+
+.section-title {
+    font-family: 'Chivo Mono', monospace;
+}
+
+#sobre,
+#turmas {
+    background-color: #c9b4a0;
+}
+
+.text-colored {
+    color: #5f3106;
+}
+
+.nav-turmas .nav-link.active,
+#fale-conosco button {
+    background-color: #5f3106;
+    color: #fff;
+}
+
+.nav-turmas .nav-link:hover {
+    color: #5f3106;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+.coco img {
+    height: 50px;
+}
+
+.serviços a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.serviços img {
+    height: 300px;
+}
+
+.serviços a:hover {
+    color: #c9b4a0;
+}
+
+.carrossel img {
+    height: 500px;
+}
+
+#servicos,
+#fale-conosco {
+    background-color: #d7d3c8;
+}
+
+#mensagem {
+    resize: none;
+}
+
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}
